@@ -1,0 +1,4683 @@
+Log Name:      System
+Source:        Microsoft-Windows-DistributedCOM
+Date:          1/8/2023 9:26:13 PM
+Event ID:      10016
+Task Category: None
+Level:         Warning
+Keywords:      Classic
+User:          DESKTOP-MEHSHLA\Zrive
+Computer:      DESKTOP-MEHSHLA
+Description:
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user DESKTOP-MEHSHLA\Zrive SID (S-1-5-21-2364521624-3794163847-1711421936-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-DistributedCOM" Guid="{1B562E86-B7AA-4131-BADC-B6F3A001407E}" EventSourceName="DCOM" />
+    <EventID Qualifiers="0">10016</EventID>
+    <Version>0</Version>
+    <Level>3</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:26:13.2703026Z" />
+    <EventRecordID>5721</EventRecordID>
+    <Correlation ActivityID="{e4d99138-e442-4d29-a59b-96c795bb9c25}" />
+    <Execution ProcessID="1056" ThreadID="8384" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-21-2364521624-3794163847-1711421936-1001" />
+  </System>
+  <EventData>
+    <Data Name="param1">application-specific</Data>
+    <Data Name="param2">Local</Data>
+    <Data Name="param3">Activation</Data>
+    <Data Name="param4">{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}</Data>
+    <Data Name="param5">{15C20B67-12E7-4BB6-92BB-7AFF07997402}</Data>
+    <Data Name="param6">DESKTOP-MEHSHLA</Data>
+    <Data Name="param7">Zrive</Data>
+    <Data Name="param8">S-1-5-21-2364521624-3794163847-1711421936-1001</Data>
+    <Data Name="param9">LocalHost (Using LRPC)</Data>
+    <Data Name="param10">Unavailable</Data>
+    <Data Name="param11">Unavailable</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-WindowsUpdateClient
+Date:          1/8/2023 9:25:36 PM
+Event ID:      19
+Task Category: Windows Update Agent
+Level:         Information
+Keywords:      Installation,Installation
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Installation Successful: Windows successfully installed the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.381.1936.0)
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}" />
+    <EventID>19</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>13</Opcode>
+    <Keywords>0x8000000000000018</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:25:36.3305436Z" />
+    <EventRecordID>5720</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1732" ThreadID="11076" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="updateTitle">Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.381.1936.0)</Data>
+    <Data Name="updateGuid">{d96ffca8-608c-4904-af39-5fedf08f3181}</Data>
+    <Data Name="updateRevisionNumber">200</Data>
+    <Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          1/8/2023 9:25:35 PM
+Event ID:      7045
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+A service was installed in the system.
+
+Service Name:  MpKslaf4b491d
+Service File Name:  C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{0C30E0E6-925D-4393-859E-461320EBB7C9}\MpKslDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:  
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="16384">7045</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:25:35.9480147Z" />
+    <EventRecordID>5719</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="868" ThreadID="3144" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="ServiceName">MpKslaf4b491d</Data>
+    <Data Name="ImagePath">C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{0C30E0E6-925D-4393-859E-461320EBB7C9}\MpKslDrv.sys</Data>
+    <Data Name="ServiceType">kernel mode driver</Data>
+    <Data Name="StartType">demand start</Data>
+    <Data Name="AccountName">
+    </Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-WindowsUpdateClient
+Date:          1/8/2023 9:25:25 PM
+Event ID:      43
+Task Category: Windows Update Agent
+Level:         Information
+Keywords:      Installation,Installation
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Installation Started: Windows has started installing the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.381.1936.0)
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}" />
+    <EventID>43</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>13</Opcode>
+    <Keywords>0x8000000000002008</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:25:25.1220725Z" />
+    <EventRecordID>5718</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1732" ThreadID="11076" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="updateTitle">Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.381.1936.0)</Data>
+    <Data Name="updateGuid">{d96ffca8-608c-4904-af39-5fedf08f3181}</Data>
+    <Data Name="updateRevisionNumber">200</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-WindowsUpdateClient
+Date:          1/8/2023 9:25:25 PM
+Event ID:      44
+Task Category: Windows Update Agent
+Level:         Information
+Keywords:      Download,Download
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Windows Update started downloading an update.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}" />
+    <EventID>44</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>12</Opcode>
+    <Keywords>0x8000000000002004</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:25:25.1220706Z" />
+    <EventRecordID>5717</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1732" ThreadID="11076" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="updateTitle">Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.381.1936.0)</Data>
+    <Data Name="updateGuid">{d96ffca8-608c-4904-af39-5fedf08f3181}</Data>
+    <Data Name="updateRevisionNumber">200</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          1/8/2023 9:25:02 PM
+Event ID:      7040
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="16384">7040</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:25:02.3305495Z" />
+    <EventRecordID>5716</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="868" ThreadID="3144" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="param1">Background Intelligent Transfer Service</Data>
+    <Data Name="param2">auto start</Data>
+    <Data Name="param3">demand start</Data>
+    <Data Name="param4">BITS</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-WER-SystemErrorReporting
+Date:          1/8/2023 9:23:15 PM
+Event ID:      1001
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+The computer has rebooted from a bugcheck.  The bugcheck was: 0x00000133 (0x0000000000000000, 0x0000000000000501, 0x0000000000000500, 0xfffff800648fb320). A dump was saved in: C:\WINDOWS\MEMORY.DMP. Report Id: af5716ad-c5e6-4dd3-aece-f7ecf16dc1d6.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-WER-SystemErrorReporting" Guid="{ABCE23E7-DE45-4366-8631-84FA6C525952}" EventSourceName="BugCheck" />
+    <EventID Qualifiers="16384">1001</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:23:15.3694567Z" />
+    <EventRecordID>5715</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="0" ThreadID="0" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">0x00000133 (0x0000000000000000, 0x0000000000000501, 0x0000000000000500, 0xfffff800648fb320)</Data>
+    <Data Name="param2">C:\WINDOWS\MEMORY.DMP</Data>
+    <Data Name="param3">af5716ad-c5e6-4dd3-aece-f7ecf16dc1d6</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          1/8/2023 9:22:56 PM
+Event ID:      7040
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="16384">7040</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:22:56.3462913Z" />
+    <EventRecordID>5714</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="868" ThreadID="3144" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="param1">Background Intelligent Transfer Service</Data>
+    <Data Name="param2">demand start</Data>
+    <Data Name="param3">auto start</Data>
+    <Data Name="param4">BITS</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          1/8/2023 9:20:38 PM
+Event ID:      7022
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+The System Guard Runtime Monitor Broker service hung on starting.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7022</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:20:38.0252766Z" />
+    <EventRecordID>5713</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="868" ThreadID="1952" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">System Guard Runtime Monitor Broker</Data>
+    <Binary>5300670072006D00420072006F006B00650072000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          1/8/2023 9:18:32 PM
+Event ID:      7022
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+The Downloaded Maps Manager service hung on starting.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7022</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:18:32.7272998Z" />
+    <EventRecordID>5712</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="868" ThreadID="1952" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">Downloaded Maps Manager</Data>
+    <Binary>4D00610070007300420072006F006B00650072000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-DistributedCOM
+Date:          1/8/2023 9:18:11 PM
+Event ID:      10016
+Task Category: None
+Level:         Warning
+Keywords:      Classic
+User:          DESKTOP-MEHSHLA\Zrive
+Computer:      DESKTOP-MEHSHLA
+Description:
+The machine-default permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{C2F03A33-21F5-47FA-B4BB-156362A2F239}
+ and APPID 
+{316CDED5-E4AE-4B15-9113-7055D84DCC97}
+ to the user DESKTOP-MEHSHLA\Zrive SID (S-1-5-21-2364521624-3794163847-1711421936-1001) from address LocalHost (Using LRPC) running in the application container Microsoft.Windows.ShellExperienceHost_10.0.19041.1949_neutral_neutral_cw5n1h2txyewy SID (S-1-15-2-155514346-2573954481-755741238-1654018636-1233331829-3075935687-2861478708). This security permission can be modified using the Component Services administrative tool.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-DistributedCOM" Guid="{1B562E86-B7AA-4131-BADC-B6F3A001407E}" EventSourceName="DCOM" />
+    <EventID Qualifiers="0">10016</EventID>
+    <Version>0</Version>
+    <Level>3</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:18:11.2531430Z" />
+    <EventRecordID>5711</EventRecordID>
+    <Correlation ActivityID="{4d48fed5-22d7-4091-ba1d-7a2d8515030e}" />
+    <Execution ProcessID="1056" ThreadID="9352" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-21-2364521624-3794163847-1711421936-1001" />
+  </System>
+  <EventData>
+    <Data Name="param1">machine-default</Data>
+    <Data Name="param2">Local</Data>
+    <Data Name="param3">Activation</Data>
+    <Data Name="param4">{C2F03A33-21F5-47FA-B4BB-156362A2F239}</Data>
+    <Data Name="param5">{316CDED5-E4AE-4B15-9113-7055D84DCC97}</Data>
+    <Data Name="param6">DESKTOP-MEHSHLA</Data>
+    <Data Name="param7">Zrive</Data>
+    <Data Name="param8">S-1-5-21-2364521624-3794163847-1711421936-1001</Data>
+    <Data Name="param9">LocalHost (Using LRPC)</Data>
+    <Data Name="param10">Microsoft.Windows.ShellExperienceHost_10.0.19041.1949_neutral_neutral_cw5n1h2txyewy</Data>
+    <Data Name="param11">S-1-15-2-155514346-2573954481-755741238-1654018636-1233331829-3075935687-2861478708</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          1/8/2023 9:18:03 PM
+Event ID:      7045
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+A service was installed in the system.
+
+Service Name:  MpKsl4103f70c
+Service File Name:  C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{DCB3C8FB-4BD6-4B5B-95BF-319AC0FA00C3}\MpKslDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:  
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="16384">7045</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:18:03.1929057Z" />
+    <EventRecordID>5710</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="868" ThreadID="1304" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="ServiceName">MpKsl4103f70c</Data>
+    <Data Name="ImagePath">C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{DCB3C8FB-4BD6-4B5B-95BF-319AC0FA00C3}\MpKslDrv.sys</Data>
+    <Data Name="ServiceType">kernel mode driver</Data>
+    <Data Name="StartType">demand start</Data>
+    <Data Name="AccountName">
+    </Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-DistributedCOM
+Date:          1/8/2023 9:17:52 PM
+Event ID:      10016
+Task Category: None
+Level:         Warning
+Keywords:      Classic
+User:          DESKTOP-MEHSHLA\Zrive
+Computer:      DESKTOP-MEHSHLA
+Description:
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user DESKTOP-MEHSHLA\Zrive SID (S-1-5-21-2364521624-3794163847-1711421936-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-DistributedCOM" Guid="{1B562E86-B7AA-4131-BADC-B6F3A001407E}" EventSourceName="DCOM" />
+    <EventID Qualifiers="0">10016</EventID>
+    <Version>0</Version>
+    <Level>3</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:17:52.2885128Z" />
+    <EventRecordID>5709</EventRecordID>
+    <Correlation ActivityID="{4822289a-9760-4b14-a40d-37d6549f84bb}" />
+    <Execution ProcessID="1056" ThreadID="4880" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-21-2364521624-3794163847-1711421936-1001" />
+  </System>
+  <EventData>
+    <Data Name="param1">application-specific</Data>
+    <Data Name="param2">Local</Data>
+    <Data Name="param3">Activation</Data>
+    <Data Name="param4">{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}</Data>
+    <Data Name="param5">{15C20B67-12E7-4BB6-92BB-7AFF07997402}</Data>
+    <Data Name="param6">DESKTOP-MEHSHLA</Data>
+    <Data Name="param7">Zrive</Data>
+    <Data Name="param8">S-1-5-21-2364521624-3794163847-1711421936-1001</Data>
+    <Data Name="param9">LocalHost (Using LRPC)</Data>
+    <Data Name="param10">Unavailable</Data>
+    <Data Name="param11">Unavailable</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-DistributedCOM
+Date:          1/8/2023 9:15:58 PM
+Event ID:      10016
+Task Category: None
+Level:         Warning
+Keywords:      Classic
+User:          DESKTOP-MEHSHLA\Zrive
+Computer:      DESKTOP-MEHSHLA
+Description:
+The machine-default permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{C2F03A33-21F5-47FA-B4BB-156362A2F239}
+ and APPID 
+{316CDED5-E4AE-4B15-9113-7055D84DCC97}
+ to the user DESKTOP-MEHSHLA\Zrive SID (S-1-5-21-2364521624-3794163847-1711421936-1001) from address LocalHost (Using LRPC) running in the application container Microsoft.Windows.ShellExperienceHost_10.0.19041.1949_neutral_neutral_cw5n1h2txyewy SID (S-1-15-2-155514346-2573954481-755741238-1654018636-1233331829-3075935687-2861478708). This security permission can be modified using the Component Services administrative tool.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-DistributedCOM" Guid="{1B562E86-B7AA-4131-BADC-B6F3A001407E}" EventSourceName="DCOM" />
+    <EventID Qualifiers="0">10016</EventID>
+    <Version>0</Version>
+    <Level>3</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:15:58.5400002Z" />
+    <EventRecordID>5708</EventRecordID>
+    <Correlation ActivityID="{c9977eda-3aed-4b97-b3a2-68c982c185c3}" />
+    <Execution ProcessID="1056" ThreadID="1596" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-21-2364521624-3794163847-1711421936-1001" />
+  </System>
+  <EventData>
+    <Data Name="param1">machine-default</Data>
+    <Data Name="param2">Local</Data>
+    <Data Name="param3">Activation</Data>
+    <Data Name="param4">{C2F03A33-21F5-47FA-B4BB-156362A2F239}</Data>
+    <Data Name="param5">{316CDED5-E4AE-4B15-9113-7055D84DCC97}</Data>
+    <Data Name="param6">DESKTOP-MEHSHLA</Data>
+    <Data Name="param7">Zrive</Data>
+    <Data Name="param8">S-1-5-21-2364521624-3794163847-1711421936-1001</Data>
+    <Data Name="param9">LocalHost (Using LRPC)</Data>
+    <Data Name="param10">Microsoft.Windows.ShellExperienceHost_10.0.19041.1949_neutral_neutral_cw5n1h2txyewy</Data>
+    <Data Name="param11">S-1-15-2-155514346-2573954481-755741238-1654018636-1233331829-3075935687-2861478708</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-TPM-WMI
+Date:          1/8/2023 9:14:27 PM
+Event ID:      1025
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The TPM was successfully provisioned and is now ready for use.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-TPM-WMI" Guid="{7d5387b0-cbe0-11da-a94d-0800200c9a66}" />
+    <EventID>1025</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:14:27.4651505Z" />
+    <EventRecordID>5707</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="7524" ThreadID="1004" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-TPM-WMI
+Date:          1/8/2023 9:14:26 PM
+Event ID:      1282
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The TBS device identifier has been generated.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-TPM-WMI" Guid="{7d5387b0-cbe0-11da-a94d-0800200c9a66}" />
+    <EventID>1282</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:14:26.3462691Z" />
+    <EventRecordID>5706</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="7524" ThreadID="1004" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-DistributedCOM
+Date:          1/8/2023 9:14:21 PM
+Event ID:      10016
+Task Category: None
+Level:         Warning
+Keywords:      Classic
+User:          LOCAL SERVICE
+Computer:      DESKTOP-MEHSHLA
+Description:
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{6B3B8D23-FA8D-40B9-8DBD-B950333E2C52}
+ and APPID 
+{4839DDB7-58C2-48F5-8283-E1D1807D0D7D}
+ to the user NT AUTHORITY\LOCAL SERVICE SID (S-1-5-19) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-DistributedCOM" Guid="{1B562E86-B7AA-4131-BADC-B6F3A001407E}" EventSourceName="DCOM" />
+    <EventID Qualifiers="0">10016</EventID>
+    <Version>0</Version>
+    <Level>3</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:14:21.1182919Z" />
+    <EventRecordID>5705</EventRecordID>
+    <Correlation ActivityID="{b4779802-9e7f-4540-a304-15f4793c7f98}" />
+    <Execution ProcessID="1056" ThreadID="2080" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-19" />
+  </System>
+  <EventData>
+    <Data Name="param1">application-specific</Data>
+    <Data Name="param2">Local</Data>
+    <Data Name="param3">Activation</Data>
+    <Data Name="param4">{6B3B8D23-FA8D-40B9-8DBD-B950333E2C52}</Data>
+    <Data Name="param5">{4839DDB7-58C2-48F5-8283-E1D1807D0D7D}</Data>
+    <Data Name="param6">NT AUTHORITY</Data>
+    <Data Name="param7">LOCAL SERVICE</Data>
+    <Data Name="param8">S-1-5-19</Data>
+    <Data Name="param9">LocalHost (Using LRPC)</Data>
+    <Data Name="param10">Unavailable</Data>
+    <Data Name="param11">Unavailable</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-DistributedCOM
+Date:          1/8/2023 9:14:21 PM
+Event ID:      10016
+Task Category: None
+Level:         Warning
+Keywords:      Classic
+User:          LOCAL SERVICE
+Computer:      DESKTOP-MEHSHLA
+Description:
+The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{6B3B8D23-FA8D-40B9-8DBD-B950333E2C52}
+ and APPID 
+{4839DDB7-58C2-48F5-8283-E1D1807D0D7D}
+ to the user NT AUTHORITY\LOCAL SERVICE SID (S-1-5-19) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-DistributedCOM" Guid="{1B562E86-B7AA-4131-BADC-B6F3A001407E}" EventSourceName="DCOM" />
+    <EventID Qualifiers="0">10016</EventID>
+    <Version>0</Version>
+    <Level>3</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:14:21.1182919Z" />
+    <EventRecordID>5704</EventRecordID>
+    <Correlation ActivityID="{b99fcd96-f382-44b3-a4d0-dd35249c8947}" />
+    <Execution ProcessID="1056" ThreadID="2080" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-19" />
+  </System>
+  <EventData>
+    <Data Name="param1">application-specific</Data>
+    <Data Name="param2">Local</Data>
+    <Data Name="param3">Activation</Data>
+    <Data Name="param4">{6B3B8D23-FA8D-40B9-8DBD-B950333E2C52}</Data>
+    <Data Name="param5">{4839DDB7-58C2-48F5-8283-E1D1807D0D7D}</Data>
+    <Data Name="param6">NT AUTHORITY</Data>
+    <Data Name="param7">LOCAL SERVICE</Data>
+    <Data Name="param8">S-1-5-19</Data>
+    <Data Name="param9">LocalHost (Using LRPC)</Data>
+    <Data Name="param10">Unavailable</Data>
+    <Data Name="param11">Unavailable</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        TPM
+Date:          1/8/2023 9:14:04 PM
+Event ID:      18
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+This event triggers the Trusted Platform Module (TPM) provisioning/status check to run.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="TPM" Guid="{1b6b0772-251b-4d42-917d-faca166bc059}" />
+    <EventID>18</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:14:04.9059265Z" />
+    <EventRecordID>5703</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="308" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="locationCode">0x140000d6</Data>
+    <Data Name="Data">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Service Control Manager
+Date:          1/8/2023 9:14:04 PM
+Event ID:      7026
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+The following boot-start or system-start driver(s) did not load: 
+dam
+EhStorClass
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="49152">7026</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:14:04.8975014Z" />
+    <EventRecordID>5702</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="868" ThreadID="872" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="param1">
+dam
+EhStorClass</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        HidBth
+Date:          1/8/2023 9:13:50 PM
+Event ID:      2
+Task Category: None
+Level:         Warning
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+Bluetooth HID device  either went out of range or became unresponsive.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="HidBth" />
+    <EventID Qualifiers="32769">2</EventID>
+    <Version>0</Version>
+    <Level>3</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:50.6343503Z" />
+    <EventRecordID>5701</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="396" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data>\Device\_HID00000002</Data>
+    <Data>
+    </Data>
+    <Binary>00000000020050000000000002000180000000000000000000000000000000000000000000000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Winlogon
+Date:          1/8/2023 9:13:42 PM
+Event ID:      7001
+Task Category: (1101)
+Level:         Information
+Keywords:      (35184372088832)
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+User Logon Notification for Customer Experience Improvement Program
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Winlogon" Guid="{dbe9b383-7cf3-4331-91cc-a3cb16a3b538}" />
+    <EventID>7001</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>1101</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x2000200000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:42.2529744Z" />
+    <EventRecordID>5700</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="480" ThreadID="1176" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="TSId">1</Data>
+    <Data Name="UserSid">S-1-5-21-2364521624-3794163847-1711421936-1001</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Time-Service
+Date:          1/8/2023 9:13:26 PM
+Event ID:      158
+Task Category: None
+Level:         Information
+Keywords:      
+User:          LOCAL SERVICE
+Computer:      DESKTOP-MEHSHLA
+Description:
+The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Time-Service" Guid="{06edcfeb-0fd0-4e53-acca-a6f8bbf81bcb}" />
+    <EventID>158</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:26.2257813Z" />
+    <EventRecordID>5699</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4936" ThreadID="5112" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-19" />
+  </System>
+  <EventData Name="TMP_EVENT_TIMEPROV_INDICATED_UNSUPPORTED">
+    <Data Name="TimeProvider">VMICTimeProvider</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-WLAN-AutoConfig
+Date:          1/8/2023 9:13:23 PM
+Event ID:      10001
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+WLAN Extensibility Module has successfully started.
+
+Module Path: C:\WINDOWS\system32\IntelIHVRouter04.dll
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-WLAN-AutoConfig" Guid="{9580d7dd-0379-4658-9870-d5be7d52d6de}" />
+    <EventID>10001</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x4000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:23.4997018Z" />
+    <EventRecordID>5698</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="3656" ThreadID="3676" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="ExtensibleModulePath">C:\WINDOWS\system32\IntelIHVRouter04.dll</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-WLAN-AutoConfig
+Date:          1/8/2023 9:13:22 PM
+Event ID:      4000
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+WLAN AutoConfig service has successfully started.
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-WLAN-AutoConfig" Guid="{9580d7dd-0379-4658-9870-d5be7d52d6de}" />
+    <EventID>4000</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>1</Opcode>
+    <Keywords>0x4000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:22.8520516Z" />
+    <EventRecordID>5697</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="3656" ThreadID="3676" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-DHCPv6-Client
+Date:          1/8/2023 9:13:20 PM
+Event ID:      51046
+Task Category: Service State Event
+Level:         Information
+Keywords:      
+User:          LOCAL SERVICE
+Computer:      DESKTOP-MEHSHLA
+Description:
+DHCPv6 client service is started
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-DHCPv6-Client" Guid="{6a1f2b00-6a90-4c38-95a5-5cab3b056778}" />
+    <EventID>51046</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>4</Task>
+    <Opcode>62</Opcode>
+    <Keywords>0x2000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:20.1648954Z" />
+    <EventRecordID>5696</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="2300" ThreadID="2360" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-19" />
+  </System>
+  <EventData>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Dhcp-Client
+Date:          1/8/2023 9:13:20 PM
+Event ID:      50103
+Task Category: Service State Event
+Level:         Information
+Keywords:      
+User:          LOCAL SERVICE
+Computer:      DESKTOP-MEHSHLA
+Description:
+DHCPv4 client registered for shutdown notification
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Dhcp-Client" Guid="{15a7a4f8-0072-4eab-abad-f98a4d666aed}" />
+    <EventID>50103</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>4</Task>
+    <Opcode>129</Opcode>
+    <Keywords>0x2000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:20.1491659Z" />
+    <EventRecordID>5695</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="2300" ThreadID="2332" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-19" />
+  </System>
+  <EventData>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Dhcp-Client
+Date:          1/8/2023 9:13:20 PM
+Event ID:      50036
+Task Category: Service State Event
+Level:         Information
+Keywords:      
+User:          LOCAL SERVICE
+Computer:      DESKTOP-MEHSHLA
+Description:
+DHCPv4 client service is started
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Dhcp-Client" Guid="{15a7a4f8-0072-4eab-abad-f98a4d666aed}" />
+    <EventID>50036</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>4</Task>
+    <Opcode>68</Opcode>
+    <Keywords>0x2000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:20.1491175Z" />
+    <EventRecordID>5694</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="2300" ThreadID="2332" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-19" />
+  </System>
+  <EventData>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:13:19 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'bindflt' (10.0, ‎1983‎-‎11‎-‎15T06:46:27.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:19.8381182Z" />
+    <EventRecordID>5693</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">7</Data>
+    <Data Name="DeviceName">bindflt</Data>
+    <Data Name="DeviceTime">1983-11-15T06:46:27.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:13:19 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'storqosflt' (10.0, ‎2007‎-‎04‎-‎09T13:08:30.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:19.8342543Z" />
+    <EventRecordID>5692</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">10</Data>
+    <Data Name="DeviceName">storqosflt</Data>
+    <Data Name="DeviceTime">2007-04-09T13:08:30.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:13:19 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'CldFlt' (10.0, ‎2044‎-‎03‎-‎08T08:25:35.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:19.8300826Z" />
+    <EventRecordID>5691</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">6</Data>
+    <Data Name="DeviceName">CldFlt</Data>
+    <Data Name="DeviceTime">2044-03-08T08:25:35.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:13:19 PM
+Event ID:      1
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'CldFlt' (Version 10.0, ‎2044‎-‎03‎-‎08T08:25:35.000000000Z) unloaded successfully.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>1</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:19.8300321Z" />
+    <EventRecordID>5690</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">6</Data>
+    <Data Name="DeviceName">CldFlt</Data>
+    <Data Name="DeviceTime">2044-03-08T08:25:35.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:13:19 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'CldFlt' (10.0, ‎2044‎-‎03‎-‎08T08:25:35.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:19.8300234Z" />
+    <EventRecordID>5689</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">6</Data>
+    <Data Name="DeviceName">CldFlt</Data>
+    <Data Name="DeviceTime">2044-03-08T08:25:35.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:13:19 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'luafv' (10.0, ‎2044‎-‎05‎-‎12T20:37:52.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:19.8223287Z" />
+    <EventRecordID>5688</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">5</Data>
+    <Data Name="DeviceName">luafv</Data>
+    <Data Name="DeviceTime">2044-05-12T20:37:52.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:13:19 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'wcifs' (10.0, ‎2084‎-‎01‎-‎02T03:25:46.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:19.8178092Z" />
+    <EventRecordID>5687</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="452" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">5</Data>
+    <Data Name="DeviceName">wcifs</Data>
+    <Data Name="DeviceTime">2084-01-02T03:25:46.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Directory-Services-SAM
+Date:          1/8/2023 9:13:19 PM
+Event ID:      16983
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The security account manager is now logging periodic summary events for remote clients that call legacy password change or set RPC methods.
+
+For more information please see https://go.microsoft.com/fwlink/?linkid=2150956.
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Directory-Services-SAM" Guid="{0d4fdc09-8c27-494a-bda0-505e4fd8adae}" />
+    <EventID>16983</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:19.0133920Z" />
+    <EventRecordID>5686</EventRecordID>
+    <Correlation ActivityID="{dd11f2b5-23cf-0002-fef2-11ddcf23d901}" />
+    <Execution ProcessID="904" ThreadID="908" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData Name="SAMMSG_AUDIT_LEGACY_PWD_RPC_METHODS_OFF">
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Directory-Services-SAM
+Date:          1/8/2023 9:13:19 PM
+Event ID:      16977
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The domain is configured with the following minimum password length-related settings.
+
+MinimumPasswordLength: 0
+
+RelaxMinimumPasswordLengthLimits: 0
+
+MinimumPasswordLengthAudit: -1
+
+For more information see https://go.microsoft.com/fwlink/?LinkId=2097191.
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Directory-Services-SAM" Guid="{0d4fdc09-8c27-494a-bda0-505e4fd8adae}" />
+    <EventID>16977</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:19.0133872Z" />
+    <EventRecordID>5685</EventRecordID>
+    <Correlation ActivityID="{dd11f2b5-23cf-0002-fef2-11ddcf23d901}" />
+    <Execution ProcessID="904" ThreadID="908" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData Name="SAMMSG_MINPWDLEN_SETTINGS_IN_EFFECT">
+    <Data Name="MinimumPasswordLength">0</Data>
+    <Data Name="RelaxMinimumPasswordLengthLimits">0</Data>
+    <Data Name="MinimumPasswordLengthAudit">-1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Directory-Services-SAM
+Date:          1/8/2023 9:13:19 PM
+Event ID:      16962
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Remote calls to the SAM database are being restricted using the default security descriptor: O:SYG:SYD:(A;;RC;;;BA).
+For more information please see http://go.microsoft.com/fwlink/?LinkId=787651.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Directory-Services-SAM" Guid="{0d4fdc09-8c27-494a-bda0-505e4fd8adae}" />
+    <EventID>16962</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:19.0090122Z" />
+    <EventRecordID>5684</EventRecordID>
+    <Correlation ActivityID="{dd11f2b5-23cf-0002-fef2-11ddcf23d901}" />
+    <Execution ProcessID="904" ThreadID="908" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData Name="SAMMSG_RESTRICT_REMOTE_SAM_DEFAULT_SD">
+    <Data Name="Default SD String:">O:SYG:SYD:(A;;RC;;;BA)</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Wininit
+Date:          1/8/2023 9:13:18 PM
+Event ID:      14
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Credential Guard configuration: 0x0, 0
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Wininit" Guid="{206f6dea-d3c5-4d10-bc72-989f03c8b84b}" />
+    <EventID>14</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x4000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:18.8499771Z" />
+    <EventRecordID>5683</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="796" ThreadID="800" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="Config">0</Data>
+    <Data Name="IsTestConfig">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-General
+Date:          1/8/2023 9:13:16 PM
+Event ID:      24
+Task Category: (11)
+Level:         Information
+Keywords:      Time
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The time zone information was refreshed with exit reason 0. Current time zone bias is 300.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-General" Guid="{a68ca8b7-004f-d7b6-a698-07e2de0f1f5d}" />
+    <EventID>24</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000010</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:16.5752041Z" />
+    <EventRecordID>5682</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="108" ThreadID="684" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="ExitReason">0</Data>
+    <Data Name="CurrentBias">300</Data>
+    <Data Name="CurrentTimeZoneID">1</Data>
+    <Data Name="TimeZoneInfoCacheUpdated">0</Data>
+    <Data Name="FirstRefresh">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:13 PM
+Event ID:      2008
+Task Category: None
+Level:         Error
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The previous session did not finalize the tracking file on device \Device\HarddiskVolume7. The tracking file has been reset.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>2008</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.8614608Z" />
+    <EventRecordID>5681</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="388" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume7</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:13 PM
+Event ID:      1001
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Received GUID_IO_VOLUME_MOUNT for device \Device\HarddiskVolume7
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1001</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.8549807Z" />
+    <EventRecordID>5680</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="388" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume7</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Ntfs
+Date:          1/8/2023 9:13:13 PM
+Event ID:      98
+Task Category: None
+Level:         Information
+Keywords:      (2)
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Volume \\?\Volume{ce4d4259-e3f5-4b3d-933e-2f3f635965f2} (\Device\HarddiskVolume7) is healthy.  No action is needed.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Ntfs" Guid="{3ff37a1c-a68d-4d6e-8c9b-f79e8b16c482}" />
+    <EventID>98</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000002</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.8138554Z" />
+    <EventRecordID>5679</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="432" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DriveName">\\?\Volume{ce4d4259-e3f5-4b3d-933e-2f3f635965f2}</Data>
+    <Data Name="DeviceName">\Device\HarddiskVolume7</Data>
+    <Data Name="CorruptionActionState">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:13 PM
+Event ID:      5002
+Task Category: None
+Level:         Information
+Keywords:      
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+The size of the $LogFile on device \Device\HarddiskVolume7 is 0x4BC000 bytes with 0x1 fragments
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5002</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.6728651Z" />
+    <EventRecordID>5678</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="592" ThreadID="596" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume7</Data>
+    <Data Name="Size">0x4bc000</Data>
+    <Data Name="Fragments">0x1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:13 PM
+Event ID:      5007
+Task Category: None
+Level:         Information
+Keywords:      
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+CurrentLcn=0, CurrentVcn=0, LcnBytes=3, VcnBytes=2
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5007</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.6728642Z" />
+    <EventRecordID>5677</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="592" ThreadID="596" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="CurrentLcn">0</Data>
+    <Data Name="CurrentVcn">0</Data>
+    <Data Name="LcnBytes">3</Data>
+    <Data Name="VcnBytes">2</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:13 PM
+Event ID:      5006
+Task Category: None
+Level:         Information
+Keywords:      
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+MappingPairsLength=8
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5006</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.6728638Z" />
+    <EventRecordID>5676</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="592" ThreadID="596" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="Length">8</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:13 PM
+Event ID:      2008
+Task Category: None
+Level:         Error
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The previous session did not finalize the tracking file on device \Device\HarddiskVolume6. The tracking file has been reset.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>2008</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.6632759Z" />
+    <EventRecordID>5675</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="432" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume6</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:13 PM
+Event ID:      1001
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Received GUID_IO_VOLUME_MOUNT for device \Device\HarddiskVolume6
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1001</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.6529371Z" />
+    <EventRecordID>5674</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="432" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume6</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Ntfs
+Date:          1/8/2023 9:13:13 PM
+Event ID:      98
+Task Category: None
+Level:         Information
+Keywords:      (2)
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Volume \\?\Volume{9868ba5b-2c68-4946-9be2-678b40a5cbe6} (\Device\HarddiskVolume6) is healthy.  No action is needed.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Ntfs" Guid="{3ff37a1c-a68d-4d6e-8c9b-f79e8b16c482}" />
+    <EventID>98</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000002</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.6120699Z" />
+    <EventRecordID>5673</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="388" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DriveName">\\?\Volume{9868ba5b-2c68-4946-9be2-678b40a5cbe6}</Data>
+    <Data Name="DeviceName">\Device\HarddiskVolume6</Data>
+    <Data Name="CorruptionActionState">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:13 PM
+Event ID:      5002
+Task Category: None
+Level:         Information
+Keywords:      
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+The size of the $LogFile on device \Device\HarddiskVolume6 is 0x43C000 bytes with 0x1 fragments
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5002</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.4297113Z" />
+    <EventRecordID>5672</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="592" ThreadID="596" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume6</Data>
+    <Data Name="Size">0x43c000</Data>
+    <Data Name="Fragments">0x1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:13 PM
+Event ID:      5007
+Task Category: None
+Level:         Information
+Keywords:      
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+CurrentLcn=0, CurrentVcn=0, LcnBytes=3, VcnBytes=2
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5007</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.4297105Z" />
+    <EventRecordID>5671</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="592" ThreadID="596" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="CurrentLcn">0</Data>
+    <Data Name="CurrentVcn">0</Data>
+    <Data Name="LcnBytes">3</Data>
+    <Data Name="VcnBytes">2</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:13 PM
+Event ID:      5006
+Task Category: None
+Level:         Information
+Keywords:      
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+MappingPairsLength=8
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5006</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.4297099Z" />
+    <EventRecordID>5670</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="592" ThreadID="596" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="Length">8</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:13 PM
+Event ID:      2008
+Task Category: None
+Level:         Error
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The previous session did not finalize the tracking file on device \Device\HarddiskVolume8 (D:). The tracking file has been reset.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>2008</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.3846608Z" />
+    <EventRecordID>5669</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="424" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume8 (D:)</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:13 PM
+Event ID:      1001
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Received GUID_IO_VOLUME_MOUNT for device \Device\HarddiskVolume8 (D:)
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1001</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.3474606Z" />
+    <EventRecordID>5668</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="424" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume8 (D:)</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Ntfs
+Date:          1/8/2023 9:13:13 PM
+Event ID:      98
+Task Category: None
+Level:         Information
+Keywords:      (2)
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Volume D: (\Device\HarddiskVolume8) is healthy.  No action is needed.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Ntfs" Guid="{3ff37a1c-a68d-4d6e-8c9b-f79e8b16c482}" />
+    <EventID>98</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000002</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:13.2380346Z" />
+    <EventRecordID>5667</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="32" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DriveName">D:</Data>
+    <Data Name="DeviceName">\Device\HarddiskVolume8</Data>
+    <Data Name="CorruptionActionState">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:12 PM
+Event ID:      5002
+Task Category: None
+Level:         Information
+Keywords:      
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+The size of the $LogFile on device \Device\HarddiskVolume8 (D:) is 0x12B0000 bytes with 0x1 fragments
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5002</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:12.9841346Z" />
+    <EventRecordID>5666</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="592" ThreadID="596" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume8 (D:)</Data>
+    <Data Name="Size">0x12b0000</Data>
+    <Data Name="Fragments">0x1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:12 PM
+Event ID:      5007
+Task Category: None
+Level:         Information
+Keywords:      
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+CurrentLcn=0, CurrentVcn=0, LcnBytes=3, VcnBytes=2
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5007</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:12.9841334Z" />
+    <EventRecordID>5665</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="592" ThreadID="596" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="CurrentLcn">0</Data>
+    <Data Name="CurrentVcn">0</Data>
+    <Data Name="LcnBytes">3</Data>
+    <Data Name="VcnBytes">2</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:13:12 PM
+Event ID:      5006
+Task Category: None
+Level:         Information
+Keywords:      
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+MappingPairsLength=8
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5006</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:12.9841330Z" />
+    <EventRecordID>5664</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="592" ThreadID="596" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="Length">8</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        BTHUSB
+Date:          1/8/2023 9:12:59 PM
+Event ID:      18
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="BTHUSB" />
+    <EventID Qualifiers="16389">18</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:59.9725488Z" />
+    <EventRecordID>5663</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="488" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data>
+    </Data>
+    <Binary>00000800010000000000000012000540000000000000000000000000000000000000000000000000E000000000000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Netwtw04
+Date:          1/8/2023 9:12:58 PM
+Event ID:      7010
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+7010 - driver enabled (miniport init)
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Netwtw04" />
+    <EventID Qualifiers="16384">7010</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:58.7135575Z" />
+    <EventRecordID>5662</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="452" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data>\Device\NDMP2</Data>
+    <Data>Intel(R) Dual Band Wireless-AC 3168</Data>
+    <Binary>000008000200380000000000621B00400000000000000000000000000000000000000000000000000000000000000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Netwtw04
+Date:          1/8/2023 9:12:58 PM
+Event ID:      7001
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+7001 - 11d Location MCC value (WRDD)
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Netwtw04" />
+    <EventID Qualifiers="16384">7001</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:58.6534822Z" />
+    <EventRecordID>5661</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="284" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data>\Device\NDMP2</Data>
+    <Data>Intel(R) Dual Band Wireless-AC 3168</Data>
+    <Binary>000008000200380000000000591B00400000000000000000000000000000000000000000000000005744525650410000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        MEIx64
+Date:          1/8/2023 9:12:58 PM
+Event ID:      2
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+Intel(R) Management Engine Interface driver has started successfully.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="MEIx64" />
+    <EventID Qualifiers="16391">2</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:58.6381012Z" />
+    <EventRecordID>5660</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="284" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data>
+    </Data>
+    <Binary>00000000010000000000000002000740000000000000000000000000000000000000000000000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Netwtw04
+Date:          1/8/2023 9:12:58 PM
+Event ID:      7036
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+The \Device\NDMP2 service entered the Intel(R) Dual Band Wireless-AC 3168 state.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Netwtw04" />
+    <EventID Qualifiers="16384">7036</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:58.6381012Z" />
+    <EventRecordID>5659</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="284" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data>\Device\NDMP2</Data>
+    <Data>Intel(R) Dual Band Wireless-AC 3168</Data>
+    <Binary>0000080002003800000000007C1B004000000000000000000000000000000000000000000000000057445256AE000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Processor-Power
+Date:          1/8/2023 9:12:58 PM
+Event ID:      55
+Task Category: (47)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Processor 3 in group 0 exposes the following power management capabilities:
+
+Idle state type: ACPI Idle (C) States (3 state(s))
+
+Performance state type: ACPI Performance (P) / Throttle (T) States
+Nominal Frequency (MHz): 3001
+Maximum performance percentage: 100
+Minimum performance percentage: 26
+Minimum throttle percentage: 26
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Processor-Power" Guid="{0f67e49f-fe51-4e9f-b490-6f2948cc6027}" />
+    <EventID>55</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>47</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:58.4269063Z" />
+    <EventRecordID>5658</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="424" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="Group">0</Data>
+    <Data Name="Number">3</Data>
+    <Data Name="IdleStateCount">3</Data>
+    <Data Name="IdleImplementation">1</Data>
+    <Data Name="NominalFrequency">3001</Data>
+    <Data Name="MaximumPerformancePercent">100</Data>
+    <Data Name="MinimumPerformancePercent">26</Data>
+    <Data Name="MinimumThrottlePercent">26</Data>
+    <Data Name="PerformanceImplementation">1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Processor-Power
+Date:          1/8/2023 9:12:58 PM
+Event ID:      55
+Task Category: (47)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Processor 2 in group 0 exposes the following power management capabilities:
+
+Idle state type: ACPI Idle (C) States (3 state(s))
+
+Performance state type: ACPI Performance (P) / Throttle (T) States
+Nominal Frequency (MHz): 3001
+Maximum performance percentage: 100
+Minimum performance percentage: 26
+Minimum throttle percentage: 26
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Processor-Power" Guid="{0f67e49f-fe51-4e9f-b490-6f2948cc6027}" />
+    <EventID>55</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>47</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:58.4255031Z" />
+    <EventRecordID>5657</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="424" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="Group">0</Data>
+    <Data Name="Number">2</Data>
+    <Data Name="IdleStateCount">3</Data>
+    <Data Name="IdleImplementation">1</Data>
+    <Data Name="NominalFrequency">3001</Data>
+    <Data Name="MaximumPerformancePercent">100</Data>
+    <Data Name="MinimumPerformancePercent">26</Data>
+    <Data Name="MinimumThrottlePercent">26</Data>
+    <Data Name="PerformanceImplementation">1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Processor-Power
+Date:          1/8/2023 9:12:58 PM
+Event ID:      55
+Task Category: (47)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Processor 1 in group 0 exposes the following power management capabilities:
+
+Idle state type: ACPI Idle (C) States (3 state(s))
+
+Performance state type: ACPI Performance (P) / Throttle (T) States
+Nominal Frequency (MHz): 3001
+Maximum performance percentage: 100
+Minimum performance percentage: 26
+Minimum throttle percentage: 26
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Processor-Power" Guid="{0f67e49f-fe51-4e9f-b490-6f2948cc6027}" />
+    <EventID>55</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>47</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:58.4246749Z" />
+    <EventRecordID>5656</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="424" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="Group">0</Data>
+    <Data Name="Number">1</Data>
+    <Data Name="IdleStateCount">3</Data>
+    <Data Name="IdleImplementation">1</Data>
+    <Data Name="NominalFrequency">3001</Data>
+    <Data Name="MaximumPerformancePercent">100</Data>
+    <Data Name="MinimumPerformancePercent">26</Data>
+    <Data Name="MinimumThrottlePercent">26</Data>
+    <Data Name="PerformanceImplementation">1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Processor-Power
+Date:          1/8/2023 9:12:58 PM
+Event ID:      55
+Task Category: (47)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Processor 0 in group 0 exposes the following power management capabilities:
+
+Idle state type: ACPI Idle (C) States (3 state(s))
+
+Performance state type: ACPI Performance (P) / Throttle (T) States
+Nominal Frequency (MHz): 3001
+Maximum performance percentage: 100
+Minimum performance percentage: 26
+Minimum throttle percentage: 26
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Processor-Power" Guid="{0f67e49f-fe51-4e9f-b490-6f2948cc6027}" />
+    <EventID>55</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>47</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:58.4106787Z" />
+    <EventRecordID>5655</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="424" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="Group">0</Data>
+    <Data Name="Number">0</Data>
+    <Data Name="IdleStateCount">3</Data>
+    <Data Name="IdleImplementation">1</Data>
+    <Data Name="NominalFrequency">3001</Data>
+    <Data Name="MaximumPerformancePercent">100</Data>
+    <Data Name="MinimumPerformancePercent">26</Data>
+    <Data Name="MinimumThrottlePercent">26</Data>
+    <Data Name="PerformanceImplementation">1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:55 PM
+Event ID:      2008
+Task Category: None
+Level:         Error
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The previous session did not finalize the tracking file on device \Device\HarddiskVolume2 (B:). The tracking file has been reset.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>2008</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:55.1330912Z" />
+    <EventRecordID>5654</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="284" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume2 (B:)</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:55 PM
+Event ID:      1001
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Received GUID_IO_VOLUME_MOUNT for device \Device\HarddiskVolume2 (B:)
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1001</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:55.0660235Z" />
+    <EventRecordID>5653</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="284" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume2 (B:)</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Ntfs
+Date:          1/8/2023 9:12:55 PM
+Event ID:      98
+Task Category: None
+Level:         Information
+Keywords:      (2)
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Volume B: (\Device\HarddiskVolume2) is healthy.  No action is needed.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Ntfs" Guid="{3ff37a1c-a68d-4d6e-8c9b-f79e8b16c482}" />
+    <EventID>98</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000002</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:55.0593305Z" />
+    <EventRecordID>5652</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="432" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DriveName">B:</Data>
+    <Data Name="DeviceName">\Device\HarddiskVolume2</Data>
+    <Data Name="CorruptionActionState">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:54 PM
+Event ID:      5002
+Task Category: None
+Level:         Information
+Keywords:      
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+The size of the $LogFile on device \Device\HarddiskVolume2 (B:) is 0x4000000 bytes with 0x1 fragments
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5002</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:54.8539829Z" />
+    <EventRecordID>5651</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="444" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume2 (B:)</Data>
+    <Data Name="Size">0x4000000</Data>
+    <Data Name="Fragments">0x1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:54 PM
+Event ID:      5007
+Task Category: None
+Level:         Information
+Keywords:      
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+CurrentLcn=0, CurrentVcn=0, LcnBytes=3, VcnBytes=2
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5007</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:54.8539814Z" />
+    <EventRecordID>5650</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="444" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="CurrentLcn">0</Data>
+    <Data Name="CurrentVcn">0</Data>
+    <Data Name="LcnBytes">3</Data>
+    <Data Name="VcnBytes">2</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:54 PM
+Event ID:      5006
+Task Category: None
+Level:         Information
+Keywords:      
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+MappingPairsLength=8
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5006</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:54.8539811Z" />
+    <EventRecordID>5649</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="444" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="Length">8</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Power
+Date:          1/8/2023 9:12:54 PM
+Event ID:      172
+Task Category: (203)
+Level:         Information
+Keywords:      (1024),(4)
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Connectivity state in standby: Disconnected, Reason: NIC compliance
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Power" Guid="{331c3b3a-2005-44c2-ac5e-77220c37d6b4}" />
+    <EventID>172</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>203</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000404</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:54.6982919Z" />
+    <EventRecordID>5648</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="State">2</Data>
+    <Data Name="Reason">6</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Power
+Date:          1/8/2023 9:12:54 PM
+Event ID:      41
+Task Category: (63)
+Level:         Critical
+Keywords:      (70368744177664),(2)
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Power" Guid="{331c3b3a-2005-44c2-ac5e-77220c37d6b4}" />
+    <EventID>41</EventID>
+    <Version>8</Version>
+    <Level>1</Level>
+    <Task>63</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000400000000002</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:54.6978398Z" />
+    <EventRecordID>5647</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="BugcheckCode">307</Data>
+    <Data Name="BugcheckParameter1">0x0</Data>
+    <Data Name="BugcheckParameter2">0x501</Data>
+    <Data Name="BugcheckParameter3">0x500</Data>
+    <Data Name="BugcheckParameter4">0xfffff800648fb320</Data>
+    <Data Name="SleepInProgress">0</Data>
+    <Data Name="PowerButtonTimestamp">0</Data>
+    <Data Name="BootAppStatus">0</Data>
+    <Data Name="Checkpoint">0</Data>
+    <Data Name="ConnectedStandbyInProgress">false</Data>
+    <Data Name="SystemSleepTransitionsToOn">0</Data>
+    <Data Name="CsEntryScenarioInstanceId">0</Data>
+    <Data Name="BugcheckInfoFromEFI">false</Data>
+    <Data Name="CheckpointStatus">0</Data>
+    <Data Name="CsEntryScenarioInstanceIdV2">0</Data>
+    <Data Name="LongPowerButtonPressDetected">false</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:54 PM
+Event ID:      18
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The file-system on device \Device\HarddiskVolume3 is not supported
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>18</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:54.6060192Z" />
+    <EventRecordID>5646</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume3</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:54 PM
+Event ID:      1001
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Received GUID_IO_VOLUME_MOUNT for device \Device\HarddiskVolume3
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1001</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:54.6060186Z" />
+    <EventRecordID>5645</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume3</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:12:54 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'npsvctrig' (10.0, ‎2025‎-‎01‎-‎05T21:41:12.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:54.3908328Z" />
+    <EventRecordID>5644</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">9</Data>
+    <Data Name="DeviceName">npsvctrig</Data>
+    <Data Name="DeviceTime">2025-01-05T21:41:12.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:12:53 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'aswMonFlt' (10.0, ‎2022‎-‎11‎-‎29T05:14:33.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:53.6854315Z" />
+    <EventRecordID>5643</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">9</Data>
+    <Data Name="DeviceName">aswMonFlt</Data>
+    <Data Name="DeviceTime">2022-11-29T05:14:33.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:12:53 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'FileCrypt' (10.0, ‎2002‎-‎03‎-‎01T06:12:42.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:53.5703118Z" />
+    <EventRecordID>5642</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">9</Data>
+    <Data Name="DeviceName">FileCrypt</Data>
+    <Data Name="DeviceTime">2002-03-01T06:12:42.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:12:53 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'aswSP' (10.0, ‎2022‎-‎11‎-‎29T05:14:59.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:53.5633906Z" />
+    <EventRecordID>5641</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">5</Data>
+    <Data Name="DeviceName">aswSP</Data>
+    <Data Name="DeviceTime">2022-11-29T05:14:59.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:53 PM
+Event ID:      2008
+Task Category: None
+Level:         Error
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The previous session did not finalize the tracking file on device \Device\HarddiskVolume5 (C:). The tracking file has been reset.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>2008</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:53.5163347Z" />
+    <EventRecordID>5640</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="376" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume5 (C:)</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:53 PM
+Event ID:      1001
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Received GUID_IO_VOLUME_MOUNT for device \Device\HarddiskVolume5 (C:)
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1001</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:53.3228107Z" />
+    <EventRecordID>5639</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="376" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume5 (C:)</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Ntfs
+Date:          1/8/2023 9:12:53 PM
+Event ID:      98
+Task Category: None
+Level:         Information
+Keywords:      (2)
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Volume C: (\Device\HarddiskVolume5) is healthy.  No action is needed.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Ntfs" Guid="{3ff37a1c-a68d-4d6e-8c9b-f79e8b16c482}" />
+    <EventID>98</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000002</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:53.2121810Z" />
+    <EventRecordID>5638</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="284" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DriveName">C:</Data>
+    <Data Name="DeviceName">\Device\HarddiskVolume5</Data>
+    <Data Name="CorruptionActionState">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1012
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Received GUID_IO_VOLUME_FVE_STATUS_CHANGE for device \Device\HarddiskVolume8 (D:)
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1012</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.5581245Z" />
+    <EventRecordID>5637</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume8 (D:)</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1012
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Received GUID_IO_VOLUME_FVE_STATUS_CHANGE for device \Device\HarddiskVolume7
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1012</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.5581224Z" />
+    <EventRecordID>5636</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume7</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1012
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Received GUID_IO_VOLUME_FVE_STATUS_CHANGE for device \Device\HarddiskVolume6
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1012</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.5581202Z" />
+    <EventRecordID>5635</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume6</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1012
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Received GUID_IO_VOLUME_FVE_STATUS_CHANGE for device \Device\HarddiskVolume5 (C:)
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1012</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.5581178Z" />
+    <EventRecordID>5634</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume5 (C:)</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1012
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Received GUID_IO_VOLUME_FVE_STATUS_CHANGE for device \Device\HarddiskVolume3
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1012</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.5581141Z" />
+    <EventRecordID>5633</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume3</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1005
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+PlugPlay notification has been registered for device \Device\HarddiskVolume8 (D:) with ReferenceCount 0x0
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1005</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.5581056Z" />
+    <EventRecordID>5632</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume8 (D:)</Data>
+    <Data Name="ReferenceCount">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1005
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+PlugPlay notification has been registered for device \Device\HarddiskVolume7 with ReferenceCount 0x0
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1005</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.4957852Z" />
+    <EventRecordID>5631</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume7</Data>
+    <Data Name="ReferenceCount">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1005
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+PlugPlay notification has been registered for device \Device\HarddiskVolume6 with ReferenceCount 0x0
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1005</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.4551352Z" />
+    <EventRecordID>5630</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume6</Data>
+    <Data Name="ReferenceCount">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      5002
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The size of the $LogFile on device \Device\HarddiskVolume5 (C:) is 0x4000000 bytes with 0x1 fragments
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5002</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.3552551Z" />
+    <EventRecordID>5629</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="284" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume5 (C:)</Data>
+    <Data Name="Size">0x4000000</Data>
+    <Data Name="Fragments">0x1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      5007
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+CurrentLcn=0, CurrentVcn=0, LcnBytes=3, VcnBytes=2
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5007</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.3552534Z" />
+    <EventRecordID>5628</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="284" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="CurrentLcn">0</Data>
+    <Data Name="CurrentVcn">0</Data>
+    <Data Name="LcnBytes">3</Data>
+    <Data Name="VcnBytes">2</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      5006
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+MappingPairsLength=8
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>5006</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.3552529Z" />
+    <EventRecordID>5627</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="284" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="Length">8</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1005
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+PlugPlay notification has been registered for device \Device\HarddiskVolume5 (C:) with ReferenceCount 0x0
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1005</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.3440506Z" />
+    <EventRecordID>5626</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume5 (C:)</Data>
+    <Data Name="ReferenceCount">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1005
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+PlugPlay notification has been registered for device \Device\HarddiskVolume3 with ReferenceCount 0x0
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1005</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.3017893Z" />
+    <EventRecordID>5625</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume3</Data>
+    <Data Name="ReferenceCount">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1012
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Received GUID_IO_VOLUME_FVE_STATUS_CHANGE for device \Device\HarddiskVolume2 (B:)
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1012</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.2795445Z" />
+    <EventRecordID>5624</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume2 (B:)</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1005
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+PlugPlay notification has been registered for device \Device\HarddiskVolume2 (B:) with ReferenceCount 0x0
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1005</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.2795359Z" />
+    <EventRecordID>5623</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="224" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume2 (B:)</Data>
+    <Data Name="ReferenceCount">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      4
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Successfully attached to device \Device\HarddiskVolume8
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>4</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.2769081Z" />
+    <EventRecordID>5622</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume8</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      4
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Successfully attached to device \Device\HarddiskVolume7
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>4</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.2762098Z" />
+    <EventRecordID>5621</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume7</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      4
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Successfully attached to device \Device\HarddiskVolume6
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>4</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.2755391Z" />
+    <EventRecordID>5620</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume6</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      4
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Successfully attached to device \Device\HarddiskVolume5
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>4</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.2748624Z" />
+    <EventRecordID>5619</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume5</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      4
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Successfully attached to device \Device\HarddiskVolume4
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>4</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.2741305Z" />
+    <EventRecordID>5618</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume4</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      4
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Successfully attached to device \Device\HarddiskVolume3
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>4</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.2734683Z" />
+    <EventRecordID>5617</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume3</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      4
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Successfully attached to device \Device\HarddiskVolume2
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>4</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.2728047Z" />
+    <EventRecordID>5616</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume2</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      4
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Successfully attached to device \Device\HarddiskVolume1
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>4</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.2721477Z" />
+    <EventRecordID>5615</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="DeviceName">\Device\HarddiskVolume1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        mrcbt
+Date:          1/8/2023 9:12:47 PM
+Event ID:      1
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Driver Loaded v8.0.6376
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="mrcbt" Guid="{288fcfb2-caa0-44ff-b663-5336d63f6860}" />
+    <EventID>1</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>1</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.2108195Z" />
+    <EventRecordID>5614</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="version">v8.0.6376</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:12:47 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'WdFilter' (10.0, ‎2046‎-‎12‎-‎27T22:44:16.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.1883210Z" />
+    <EventRecordID>5613</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">8</Data>
+    <Data Name="DeviceName">WdFilter</Data>
+    <Data Name="DeviceTime">2046-12-27T22:44:16.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:12:47 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'Wof' (10.0, ‎1974‎-‎11‎-‎02T17:07:08.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.1873735Z" />
+    <EventRecordID>5612</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">3</Data>
+    <Data Name="DeviceName">Wof</Data>
+    <Data Name="DeviceTime">1974-11-02T17:07:08.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-FilterManager
+Date:          1/8/2023 9:12:47 PM
+Event ID:      6
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+File System Filter 'FileInfo' (10.0, ‎2062‎-‎12‎-‎23T00:21:06.000000000Z) has successfully loaded and registered with Filter Manager.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-FilterManager" Guid="{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}" />
+    <EventID>6</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:47.1864819Z" />
+    <EventRecordID>5611</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="FinalStatus">0x0</Data>
+    <Data Name="DeviceVersionMajor">10</Data>
+    <Data Name="DeviceVersionMinor">0</Data>
+    <Data Name="DeviceNameLength">8</Data>
+    <Data Name="DeviceName">FileInfo</Data>
+    <Data Name="DeviceTime">2062-12-23T00:21:06.0000000Z</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-HAL
+Date:          1/8/2023 9:12:45 PM
+Event ID:      16
+Task Category: None
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The iommu fault reporting has been initialized.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-HAL" Guid="{63d1e632-95cc-4443-9312-af927761d52a}" />
+    <EventID>16</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:45.9101324Z" />
+    <EventRecordID>5610</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-General
+Date:          1/8/2023 9:12:45 PM
+Event ID:      20
+Task Category: (6)
+Level:         Information
+Keywords:      Time
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The leap second configuration has been updated.
+Reason: Leap second data initialized from registry during boot
+Leap seconds enabled: true
+New leap second count: 0
+Old leap second count: 0
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-General" Guid="{a68ca8b7-004f-d7b6-a698-07e2de0f1f5d}" />
+    <EventID>20</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>6</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000010</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:45.8784385Z" />
+    <EventRecordID>5609</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="UpdateReason">0</Data>
+    <Data Name="EnabledNew">true</Data>
+    <Data Name="CountNew">0</Data>
+    <Data Name="CountOld">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Boot
+Date:          1/8/2023 9:12:45 PM
+Event ID:      30
+Task Category: (21)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The firmware reported boot metrics.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Boot" Guid="{15ca44ff-4d7a-4baa-bba5-0998955e531e}" />
+    <EventID>30</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>21</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:45.8759635Z" />
+    <EventRecordID>5608</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="ResetEndStart">0</Data>
+    <Data Name="LoadOSImageStart">5204</Data>
+    <Data Name="StartOSImageStart">5299</Data>
+    <Data Name="ExitBootServicesEntry">9585</Data>
+    <Data Name="ExitBootServicesExit">9592</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Boot
+Date:          1/8/2023 9:12:45 PM
+Event ID:      27
+Task Category: (33)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The boot type was 0x0.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Boot" Guid="{15ca44ff-4d7a-4baa-bba5-0998955e531e}" />
+    <EventID>27</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>33</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:45.8758674Z" />
+    <EventRecordID>5607</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="BootType">0</Data>
+    <Data Name="LoadOptions"> NOEXECUTE=OPTIN  NOVGA</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Boot
+Date:          1/8/2023 9:12:45 PM
+Event ID:      25
+Task Category: (32)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The boot menu policy was 0x1.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Boot" Guid="{15ca44ff-4d7a-4baa-bba5-0998955e531e}" />
+    <EventID>25</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>32</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:45.8758669Z" />
+    <EventRecordID>5606</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="BootMenuPolicy">1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Boot
+Date:          1/8/2023 9:12:45 PM
+Event ID:      238
+Task Category: (101)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+EFI time zone bias: 2047. Daylight flags: 0
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Boot" Guid="{15ca44ff-4d7a-4baa-bba5-0998955e531e}" />
+    <EventID>238</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>101</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:45.8758662Z" />
+    <EventRecordID>5605</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="EfiTimeZoneBias">2047</Data>
+    <Data Name="EfiDaylightFlags">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Boot
+Date:          1/8/2023 9:12:45 PM
+Event ID:      20
+Task Category: (31)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The last shutdown's success status was false. The last boot's success status was true.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Boot" Guid="{15ca44ff-4d7a-4baa-bba5-0998955e531e}" />
+    <EventID>20</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>31</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:45.8757594Z" />
+    <EventRecordID>5604</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="LastShutdownGood">false</Data>
+    <Data Name="LastBootGood">true</Data>
+    <Data Name="LastBootId">42</Data>
+    <Data Name="BootStatusPolicy">2</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Boot
+Date:          1/8/2023 9:12:45 PM
+Event ID:      32
+Task Category: (58)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The bootmgr spent 0 ms waiting for user input.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Boot" Guid="{15ca44ff-4d7a-4baa-bba5-0998955e531e}" />
+    <EventID>32</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>58</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:45.8756276Z" />
+    <EventRecordID>5603</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="BitlockerUserInputTime">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Boot
+Date:          1/8/2023 9:12:45 PM
+Event ID:      18
+Task Category: (57)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+There are 0x1 boot options on this system.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Boot" Guid="{15ca44ff-4d7a-4baa-bba5-0998955e531e}" />
+    <EventID>18</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>57</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:45.8756008Z" />
+    <EventRecordID>5602</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="EntryCount">1</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-Boot
+Date:          1/8/2023 9:12:45 PM
+Event ID:      153
+Task Category: (62)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+Virtualization-based security (policies: 0) is disabled.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-Boot" Guid="{15ca44ff-4d7a-4baa-bba5-0998955e531e}" />
+    <EventID>153</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>62</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:45.8755410Z" />
+    <EventRecordID>5601</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="Status">0</Data>
+    <Data Name="EnableDisableReason">0</Data>
+    <Data Name="VsmPolicy">0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        EventLog
+Date:          1/8/2023 9:13:20 PM
+Event ID:      6013
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+The system uptime is 34 seconds.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="EventLog" />
+    <EventID Qualifiers="32768">6013</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:20.0435639Z" />
+    <EventRecordID>5600</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="0" ThreadID="0" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data>
+    </Data>
+    <Data>
+    </Data>
+    <Data>
+    </Data>
+    <Data>
+    </Data>
+    <Data>34</Data>
+    <Data>60</Data>
+    <Data>300 Eastern Standard Time</Data>
+    <Binary>31002E003100000030000000570069006E0064006F0077007300200031003000200048006F006D0065000000310030002E0030002E003100390030003400350020004200750069006C0064002000310039003000340035002000200000004D0075006C0074006900700072006F0063006500730073006F007200200046007200650065000000310039003000340031002E00760062005F00720065006C0065006100730065002E003100390031003200300036002D00310034003000360000003600330037003100360039006300640000004E006F007400200041007600610069006C00610062006C00650000004E006F007400200041007600610069006C00610062006C0065000000390000003400000031003600330032003000000034003000390000004400450053004B0054004F0050002D004D0045004800530048004C00410000000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        EventLog
+Date:          1/8/2023 9:13:20 PM
+Event ID:      6005
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+The Event log service was started.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="EventLog" />
+    <EventID Qualifiers="32768">6005</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:20.0435639Z" />
+    <EventRecordID>5599</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="0" ThreadID="0" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Binary>E70701000100090002000D0014002B000000000000000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        EventLog
+Date:          1/8/2023 9:13:20 PM
+Event ID:      6009
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+Microsoft (R) Windows (R) 10.00. 19045  Multiprocessor Free.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="EventLog" />
+    <EventID Qualifiers="32768">6009</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:20.0435639Z" />
+    <EventRecordID>5598</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="0" ThreadID="0" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data>10.00.</Data>
+    <Data>19045</Data>
+    <Data>
+    </Data>
+    <Data>Multiprocessor Free</Data>
+    <Data>0</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        EventLog
+Date:          1/8/2023 9:13:20 PM
+Event ID:      6008
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-MEHSHLA
+Description:
+The previous system shutdown at 8:43:54 PM on ‎1/‎8/‎2023 was unexpected.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="EventLog" />
+    <EventID Qualifiers="32768">6008</EventID>
+    <Version>0</Version>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:13:20.0335601Z" />
+    <EventRecordID>5597</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="0" ThreadID="0" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data>8:43:54 PM</Data>
+    <Data>‎1/‎8/‎2023</Data>
+    <Data>
+    </Data>
+    <Data>
+    </Data>
+    <Data>31237</Data>
+    <Data>
+    </Data>
+    <Data>
+    </Data>
+    <Binary>E70701000000080014002B003600AE00E70701000100090001002B003600AE00600900003C000000010000006009000001000000B00400000000000000000000</Binary>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-Kernel-General
+Date:          1/8/2023 9:12:45 PM
+Event ID:      12
+Task Category: (1)
+Level:         Information
+Keywords:      (128)
+User:          SYSTEM
+Computer:      DESKTOP-MEHSHLA
+Description:
+The operating system started at system time ‎2023‎-‎01‎-‎09T02:12:45.500000000Z.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Kernel-General" Guid="{a68ca8b7-004f-d7b6-a698-07e2de0f1f5d}" />
+    <EventID>12</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000080</Keywords>
+    <TimeCreated SystemTime="2023-01-09T02:12:45.8754705Z" />
+    <EventRecordID>5596</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="8" />
+    <Channel>System</Channel>
+    <Computer>DESKTOP-MEHSHLA</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="MajorVersion">10</Data>
+    <Data Name="MinorVersion">0</Data>
+    <Data Name="BuildVersion">19041</Data>
+    <Data Name="QfeVersion">2364</Data>
+    <Data Name="ServiceVersion">0</Data>
+    <Data Name="BootMode">0</Data>
+    <Data Name="StartTime">2023-01-09T02:12:45.5000000Z</Data>
+  </EventData>
+</Event>
