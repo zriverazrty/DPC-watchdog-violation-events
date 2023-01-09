@@ -1,0 +1,126 @@
+Warning	1/8/2023 9:26:13 PM	DistributedCOM	10016	None
+Information	1/8/2023 9:25:36 PM	WindowsUpdateClient	19	Windows Update Agent
+Information	1/8/2023 9:25:35 PM	Service Control Manager	7045	None
+Information	1/8/2023 9:25:25 PM	WindowsUpdateClient	43	Windows Update Agent
+Information	1/8/2023 9:25:25 PM	WindowsUpdateClient	44	Windows Update Agent
+Information	1/8/2023 9:25:02 PM	Service Control Manager	7040	None
+Error	1/8/2023 9:23:15 PM	BugCheck	1001	None
+Information	1/8/2023 9:22:56 PM	Service Control Manager	7040	None
+Error	1/8/2023 9:20:38 PM	Service Control Manager	7022	None
+Error	1/8/2023 9:18:32 PM	Service Control Manager	7022	None
+Warning	1/8/2023 9:18:11 PM	DistributedCOM	10016	None
+Information	1/8/2023 9:18:03 PM	Service Control Manager	7045	None
+Warning	1/8/2023 9:17:52 PM	DistributedCOM	10016	None
+Warning	1/8/2023 9:15:58 PM	DistributedCOM	10016	None
+Information	1/8/2023 9:14:27 PM	TPM-WMI	1025	None
+Information	1/8/2023 9:14:26 PM	TPM-WMI	1282	None
+Warning	1/8/2023 9:14:21 PM	DistributedCOM	10016	None
+Warning	1/8/2023 9:14:21 PM	DistributedCOM	10016	None
+Information	1/8/2023 9:14:04 PM	TPM	18	None
+Information	1/8/2023 9:14:04 PM	Service Control Manager	7026	None
+Warning	1/8/2023 9:13:50 PM	HidBth	2	None
+Information	1/8/2023 9:13:42 PM	Winlogon	7001	(1101)
+Information	1/8/2023 9:13:26 PM	Time-Service	158	None
+Information	1/8/2023 9:13:23 PM	WLAN-AutoConfig	10001	None
+Information	1/8/2023 9:13:22 PM	WLAN-AutoConfig	4000	None
+Information	1/8/2023 9:13:20 PM	DHCPv6-Client	51046	Service State Event
+Information	1/8/2023 9:13:20 PM	Dhcp-Client	50103	Service State Event
+Information	1/8/2023 9:13:20 PM	Dhcp-Client	50036	Service State Event
+Information	1/8/2023 9:13:19 PM	FilterManager	6	None
+Information	1/8/2023 9:13:19 PM	FilterManager	6	None
+Information	1/8/2023 9:13:19 PM	FilterManager	6	None
+Information	1/8/2023 9:13:19 PM	FilterManager	1	None
+Information	1/8/2023 9:13:19 PM	FilterManager	6	None
+Information	1/8/2023 9:13:19 PM	FilterManager	6	None
+Information	1/8/2023 9:13:19 PM	FilterManager	6	None
+Information	1/8/2023 9:13:19 PM	Directory-Services-SAM	16983	None
+Information	1/8/2023 9:13:19 PM	Directory-Services-SAM	16977	None
+Information	1/8/2023 9:13:19 PM	Directory-Services-SAM	16962	None
+Information	1/8/2023 9:13:18 PM	Wininit	14	None
+Information	1/8/2023 9:13:16 PM	Kernel-General	24	(11)
+Error	1/8/2023 9:13:13 PM	mrcbt	2008	None
+Information	1/8/2023 9:13:13 PM	mrcbt	1001	None
+Information	1/8/2023 9:13:13 PM	Ntfs (Microsoft-Windows-Ntfs)	98	None
+Information	1/8/2023 9:13:13 PM	mrcbt	5002	None
+Information	1/8/2023 9:13:13 PM	mrcbt	5007	None
+Information	1/8/2023 9:13:13 PM	mrcbt	5006	None
+Error	1/8/2023 9:13:13 PM	mrcbt	2008	None
+Information	1/8/2023 9:13:13 PM	mrcbt	1001	None
+Information	1/8/2023 9:13:13 PM	Ntfs (Microsoft-Windows-Ntfs)	98	None
+Information	1/8/2023 9:13:13 PM	mrcbt	5002	None
+Information	1/8/2023 9:13:13 PM	mrcbt	5007	None
+Information	1/8/2023 9:13:13 PM	mrcbt	5006	None
+Error	1/8/2023 9:13:13 PM	mrcbt	2008	None
+Information	1/8/2023 9:13:13 PM	mrcbt	1001	None
+Information	1/8/2023 9:13:13 PM	Ntfs (Microsoft-Windows-Ntfs)	98	None
+Information	1/8/2023 9:13:12 PM	mrcbt	5002	None
+Information	1/8/2023 9:13:12 PM	mrcbt	5007	None
+Information	1/8/2023 9:13:12 PM	mrcbt	5006	None
+Information	1/8/2023 9:12:59 PM	BTHUSB	18	None
+Information	1/8/2023 9:12:58 PM	Netwtw04	7010	None
+Information	1/8/2023 9:12:58 PM	Netwtw04	7001	None
+Information	1/8/2023 9:12:58 PM	MEIx64	2	None
+Information	1/8/2023 9:12:58 PM	Netwtw04	7036	None
+Information	1/8/2023 9:12:58 PM	Kernel-Processor-Power (Microsoft-Windows-Kernel-Processor-Power)	55	(47)
+Information	1/8/2023 9:12:58 PM	Kernel-Processor-Power (Microsoft-Windows-Kernel-Processor-Power)	55	(47)
+Information	1/8/2023 9:12:58 PM	Kernel-Processor-Power (Microsoft-Windows-Kernel-Processor-Power)	55	(47)
+Information	1/8/2023 9:12:58 PM	Kernel-Processor-Power (Microsoft-Windows-Kernel-Processor-Power)	55	(47)
+Error	1/8/2023 9:12:55 PM	mrcbt	2008	None
+Information	1/8/2023 9:12:55 PM	mrcbt	1001	None
+Information	1/8/2023 9:12:55 PM	Ntfs (Microsoft-Windows-Ntfs)	98	None
+Information	1/8/2023 9:12:54 PM	mrcbt	5002	None
+Information	1/8/2023 9:12:54 PM	mrcbt	5007	None
+Information	1/8/2023 9:12:54 PM	mrcbt	5006	None
+Information	1/8/2023 9:12:54 PM	Kernel-Power	172	(203)
+Critical	1/8/2023 9:12:54 PM	Kernel-Power	41	(63)
+Information	1/8/2023 9:12:54 PM	mrcbt	18	None
+Information	1/8/2023 9:12:54 PM	mrcbt	1001	None
+Information	1/8/2023 9:12:54 PM	FilterManager	6	None
+Information	1/8/2023 9:12:53 PM	FilterManager	6	None
+Information	1/8/2023 9:12:53 PM	FilterManager	6	None
+Information	1/8/2023 9:12:53 PM	FilterManager	6	None
+Error	1/8/2023 9:12:53 PM	mrcbt	2008	None
+Information	1/8/2023 9:12:53 PM	mrcbt	1001	None
+Information	1/8/2023 9:12:53 PM	Ntfs (Microsoft-Windows-Ntfs)	98	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1012	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1012	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1012	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1012	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1012	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1005	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1005	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1005	None
+Information	1/8/2023 9:12:47 PM	mrcbt	5002	None
+Information	1/8/2023 9:12:47 PM	mrcbt	5007	None
+Information	1/8/2023 9:12:47 PM	mrcbt	5006	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1005	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1005	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1012	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1005	None
+Information	1/8/2023 9:12:47 PM	mrcbt	4	None
+Information	1/8/2023 9:12:47 PM	mrcbt	4	None
+Information	1/8/2023 9:12:47 PM	mrcbt	4	None
+Information	1/8/2023 9:12:47 PM	mrcbt	4	None
+Information	1/8/2023 9:12:47 PM	mrcbt	4	None
+Information	1/8/2023 9:12:47 PM	mrcbt	4	None
+Information	1/8/2023 9:12:47 PM	mrcbt	4	None
+Information	1/8/2023 9:12:47 PM	mrcbt	4	None
+Information	1/8/2023 9:12:47 PM	mrcbt	1	None
+Information	1/8/2023 9:12:47 PM	FilterManager	6	None
+Information	1/8/2023 9:12:47 PM	FilterManager	6	None
+Information	1/8/2023 9:12:47 PM	FilterManager	6	None
+Information	1/8/2023 9:12:45 PM	HAL	16	None
+Information	1/8/2023 9:12:45 PM	Kernel-General	20	(6)
+Information	1/8/2023 9:12:45 PM	Kernel-Boot	30	(21)
+Information	1/8/2023 9:12:45 PM	Kernel-Boot	27	(33)
+Information	1/8/2023 9:12:45 PM	Kernel-Boot	25	(32)
+Information	1/8/2023 9:12:45 PM	Kernel-Boot	238	(101)
+Information	1/8/2023 9:12:45 PM	Kernel-Boot	20	(31)
+Information	1/8/2023 9:12:45 PM	Kernel-Boot	32	(58)
+Information	1/8/2023 9:12:45 PM	Kernel-Boot	18	(57)
+Information	1/8/2023 9:12:45 PM	Kernel-Boot	153	(62)
+Information	1/8/2023 9:13:20 PM	EventLog	6013	None
+Information	1/8/2023 9:13:20 PM	EventLog	6005	None
+Information	1/8/2023 9:13:20 PM	EventLog	6009	None
+Error	1/8/2023 9:13:20 PM	EventLog	6008	None
+Information	1/8/2023 9:12:45 PM	Kernel-General	12	(1)
